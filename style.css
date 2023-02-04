@@ -1,0 +1,130 @@
+*{box-sizing: border-box;}
+@font-face {
+        src: url("media/fonts/coolvetica/coolvetica rg.otf"), format("opentype");        
+        font-family: "coolvetica";
+    }
+@font-face{
+    src: url("media/fonts/roboto/Roboto-Black.ttf"),format("truetype");
+    font-family: "roboto";
+}
+.logo{
+    height:60px;
+}
+nav{
+    background-color: #8B95C9;
+    height: 10%;
+}
+.nav-link{
+    font-size: 25px;
+    margin:0 30px 0 30px;
+    font-family: coolvetica;
+}
+.btn:hover.nav-link{
+    color:#fff;
+}
+.btn:hover{
+    background-color: #014e4e;
+}
+#wrapper{
+    height:90%;
+    margin-top:10%;
+    color:#03312E;
+}
+.festival_text{
+    font-size:48px;
+    font-family: century gothic;
+}
+h1{
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.text{
+    margin-top:10%;
+    font-family: roboto;
+    font-size:28px;
+}
+
+.app-text{
+    margin-top:10%;
+}
+
+.download-text{
+    font-size:28px;
+}
+.btn-outline-success{
+    width:350px;
+    border:3px solid #00B9AE;
+    color:#00B9AE;
+}
+.btn-outline-success:hover{
+    border:3px solid #018d84;
+    background-color: #018d84;
+}
+.phone{
+    margin:auto;
+    border-radius: 50px;
+    height:100%;
+    aspect-ratio: 9/16;
+    box-shadow: 0px 0px 38px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+.phone_wrapper{
+    height:700px
+}
+.funtionnaliteesTitre{
+    text-align: center;
+}
+
+.description{
+    display:inline-block;
+    text-align: center;
+    margin:0;
+    font-size: 28px;
+    line-height:33px;
+    font-family: roboto;
+    margin-bottom:5%;
+}
+#secondWrapper{
+    height:100%;
+    max-width: 100%;
+    color:#03312E;
+    background-color: #D9D9D9;
+    margin-top:7%;
+}
+.funtionnaliteesTitre{
+    font-family: coolvetica;
+    font-size: 43px;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.function{
+    margin-bottom: 5%;
+    padding-top:30%;
+    border:#03312E solid 1px;
+}
+.band{
+    width:60%;
+    height:1px;
+    background-color: #00B9AE;
+    margin-bottom: 5px;
+}
+.functionBody{
+    font-size:16px;
+    color:#03312E;
+    line-height: 19px;
+}
+.functionTitle{
+    font-size:28px;
+    color:#03312E;
+}
+@media all and (max-width: 990px){
+    .app-text{
+        text-align: center;
+        margin-bottom:10%;
+    }
+    .nav-btn{
+        background-color: #8B95C9;
+        border-radius: 0;
+    }
+}
