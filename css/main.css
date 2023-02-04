@@ -1,10 +1,10 @@
 *{box-sizing: border-box;}
 @font-face {
-        src: url("media/fonts/coolvetica/coolvetica rg.otf"), format("opentype");        
+        src: url("assets/fonts/coolvetica/coolvetica rg.otf"), format("opentype");        
         font-family: "coolvetica";
     }
 @font-face{
-    src: url("media/fonts/roboto/Roboto-Black.ttf"),format("truetype");
+    src: url("assets/fonts/roboto/Roboto-Black.ttf"),format("truetype");
     font-family: "roboto";
 }
 .logo{
