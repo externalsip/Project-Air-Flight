@@ -16,7 +16,7 @@
     src: url("assets/fonts/roboto/Roboto-Black.ttf"), format("truetype");
     font-family: "roboto";
   }
-
+  
   h1,.h1{
     font-size: 64px;
     font-weight: 400;
@@ -36,13 +36,12 @@ h3,.h3{
 }
 
 .btn-outline-success {
-    width: 350px;
-    border: 3px solid var(--teal);
-    color: var(--teal);
-  }
-  
-  .btn-outline-success:hover {
-    border: 3px solid var(--dark_teal);
-    background-color: var(--dark_teal);
-  }
-  
+  width: 350px;
+  border: 3px solid var(--teal);
+  color: var(--teal);
+}
+
+.btn-outline-success:hover {
+  border: 3px solid var(--dark_teal);
+  background-color: var(--dark_teal);
+}
